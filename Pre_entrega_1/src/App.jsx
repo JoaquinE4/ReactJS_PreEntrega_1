@@ -13,8 +13,9 @@ function App() {
      
       <Header />
     
-      <Banner />
+      
       <hr />
+      <Banner  />
       <Mensaje tamaño={460} />
       <hr />
       <Footer/>

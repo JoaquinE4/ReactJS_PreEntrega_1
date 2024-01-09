@@ -1,3 +1,4 @@
+import CardWidget from "./CardWidget";
 import LogoSole from "./LogoSole";
 
 const Navbar = () => {
@@ -20,11 +21,17 @@ const Navbar = () => {
                         <LogoSole tamaño={150}/>
                     </div>
 
-                    <div className="col-md-5 my-5  d-flex   justify-content-end" >
-                    <ul className="nav">
-                        <li className="nav-item"><a className="nav-link text-dark" href="#">Tienda</a></li>
-
-                    </ul>
+                    <div className="col-md-4 my-5  d-flex aling-items-center justify-content-end" >
+                        <ul className="nav">
+                            <li className="nav-item">
+                         <a className="nav-link text-dark" href="#">Tienda</a> 
+                        
+                        </li>
+                            <li className="nav-item">
+                            <CardWidget/>
+                            </li>
+                        </ul>
+                    
 
                 </div>
 
